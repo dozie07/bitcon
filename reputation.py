@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Author: Chiedozie Enworom
-# Owner: Burke IT Consulting
+
 
 import requests
 from requests.auth import HTTPBasicAuth
