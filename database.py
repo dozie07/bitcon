@@ -4,11 +4,11 @@ import mysql.connector as mysql
 
 # connects to or creates a database
 def open_conn():
-    conn = mysql.connect(host='database-1-instance-1.cwdomq0apf1r.us-east-1.rds.amazonaws.com',
+    conn = mysql.connect(host='***************rds.amazonaws.com',
                          user='admin',
-                         password='pA4rUTHeK?b6',
-                         port='3306',
-                         database='identicaller')
+                         password='************',
+                         port='******',
+                         database='**********')
     print('Connection Successful')
     return conn
 
